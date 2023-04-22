@@ -13,7 +13,7 @@ apt-get install pkg-config
 apt-get install libclang-dev
 apt-get install libpq-dev
 apt-get install build-essential
-cargo install --locked --git https://github.com/MystenLabs/sui.git --branch devnet sui sui-test-validaor
+cargo install --locked --git https://github.com/MystenLabs/sui.git --branch devnet sui sui-test-validator
 sui-test-validator
 
 git clone "https://github.com/MoveExchange/DeepBook-SDK"
